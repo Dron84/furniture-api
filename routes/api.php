@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\FurnitureController;
+use Illuminate\Support\Facades\Route;
 
 Route::get('furniture', [FurnitureController::class, 'index']);
 Route::get('furniture/{id}', [FurnitureController::class, 'show']);
